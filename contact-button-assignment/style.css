@@ -1,0 +1,37 @@
+/*
+MY COLOR PALETTE
+Black - #000807
+Purple Gray - #A2A3BB
+Purple - #9395D3
+Light Purple - #B3B7EE
+Pink Gray - #FBF9FF
+*/
+
+body {
+    background-color: #9395d3;
+    text-align-last: center;
+}
+
+button {
+    font-family: "Montserrat", sans-serif;
+    background-color: #000807;
+    color: #fbf9ff;
+    width: 150px;
+    padding: 10px;
+    margin: 50px;
+    border: none;
+    font-weight: 600;
+}
+button:hover {
+    background-color: purple;
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+    text-transform: capitalize;
+}
