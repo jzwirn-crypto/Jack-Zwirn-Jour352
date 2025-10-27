@@ -1,11 +1,96 @@
 /*
- * 000000 - black
- * 004AAD - dark blue
- * D4D2FF - light purple
- * FC4493 - pink
- * 422F87 - purple
+ * #000000 - black
+ * #004AAD - dark blue
+ * #D4D2FF - light purple
+ * #FC4493 - pink
+ * #422F87 - purple
  */
 
-img {
-    width: 100%;
+@media screen {
+    img {
+        width: 30%;
+        float: right;
+        margin-right: 300px;
+        margin-top: 50px;
+        border: 5px solid black;
+    }
+
+    h1 {
+        font-family: "Open Sans", sans-serif;
+        text-transform: capitalize;
+        text-align: center;
+        color: #004aad;
+        font-size: 100px;
+        font-weight: 500;
+    }
+
+    h2 {
+        font-family: "Open Sans", sans-serif;
+        text-transform: capitalize;
+        text-align: center;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    button {
+        font-family: "Open Sans", sans-serif;
+        text-transform: capitalize;
+        background-color: #422f87;
+        color: white;
+        width: 150px;
+        display: block;
+        margin: auto;
+        padding: 10px;
+        border: none;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+
+    button:hover {
+        background-color: #fc4493;
+    }
+
+    #navigation {
+        font-family: "Open Sans", sans-serif;
+        text-transform: capitalize;
+        font-weight: bold;
+        text-align: center;
+        background-color: #422f87;
+        color: white;
+        padding: 10px;
+    }
+
+    h4 {
+        font-family: "Open Sans", sans-serif;
+        text-transform: capitalize;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    ul {
+        text-align: left;
+        margin-left: 100px;
+    }
+
+    p {
+        font-family: "Open Sans", sans-serif;
+        text-transform: capitalize;
+        margin-left: 100px;
+    }
+
+    body {
+        background-color: #d4d2ff;
+    }
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    img {
+        width: 100%;
+    }
 }
