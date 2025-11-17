@@ -50,10 +50,6 @@
         color: white;
     }
 
-    button:hover {
-        background-color: #fc4493;
-    }
-
     #navigation {
         font-family: "Open Sans", sans-serif;
         text-transform: capitalize;
