@@ -24,10 +24,6 @@
     h2 {
         text-align-last: center;
     }
-    body {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
     img {
         width: 700px;
         display: block;
@@ -52,18 +48,22 @@
         font-style: italic;
     }
     #tweet {
-        margin: auto;
+        border: red;
     }
-    .pquote {
+    .quote {
+        margin: auto;
         width: 100%;
         text-align: center;
         font-size: 30px;
         font-weight: bold;
-        float: left;
-        padding: 50px;
-        margin: 0 13px 13px 0;
+        padding: 25px 25px 25px 25px;
     }
-    blockquote {
+    .attribution {
         margin: auto;
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 25px 25px 25px 25px;
     }
 }
